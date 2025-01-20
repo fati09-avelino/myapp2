@@ -4,7 +4,7 @@ body {
   font-family: Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f2f5f9; 
+  background-color: #4370b4; 
   color: #333; 
 }
 
@@ -35,7 +35,7 @@ body {
 
 .button {
   padding: 10px 20px;
-  background-color: #007bff; 
+  background-color: #97306f; 
   color: #fff; 
   border: none;
   border-radius: 4px; 
@@ -44,7 +44,7 @@ body {
 }
 
 .button:hover {
-  background-color: #0056b3; 
+  background-color: #2462c1; 
 }
 
 .error {
@@ -75,5 +75,5 @@ body {
 }
 
 .result-item strong {
-  color: #102b48; 
+  color: #173d64; 
 }
