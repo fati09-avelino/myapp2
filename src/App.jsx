@@ -1,4 +1,3 @@
-
 // src/App.js
 import React, { useState } from 'react';
 import { MeiliSearch } from 'meilisearch';
@@ -45,6 +44,7 @@ const App = () => {
       <ul className="results">
         {resultados.map((movie) => (
           <li key={movie.id} className="result-item">
+            <img src={movie.poster} alt={movie.title} className="poster" />
             <strong>{movie.title || 'Sin título'}</strong> - {movie.genres || 'Sin género'}
           </li>
         ))}
@@ -54,4 +54,3 @@ const App = () => {
 };
 
 export default App;
-
